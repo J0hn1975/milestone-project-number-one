@@ -9,18 +9,26 @@ h1 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
-	font-size: 18px;
+	font-size: 30px;
 }
 h2 {
 	text-align: center;
-	font-size: 18px;
+	font-size: 25px;
 	font-family: 'Roboto', sans-serif;
-	color: #1E90FF;
+	color: #FFF;
+	background-color: #5061C7;
 }
-h3, h4 {
+h3{
 	font-family: 'Roboto', sans-serif;
 	color: #1E90FF;
 	text-align: center;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #1E90FF;
+	text-align: center;
+	font-size: 23px;
 }
 p {
 	color: #61B1FF;
@@ -103,16 +111,33 @@ li {
 	background-color: #D5E6E2;
 	height: 100%;
 }
-.col-sm-3 {
-	text-align: center;
+
+
+
+.column {
+  float: left;
+  width: 25%;
+  
+  
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .box {
 	border-bottom: solid;
-	border-color: white;
+	border-color: #fff;
 	border-bottom-width: 5px;
-	padding: 2px;
-	margin: 0px;
+	padding: 2.5px;
+	margin: 2.5px;
+	letter-spacing: 1.5px;
 }
+
+
+
 /*.............................................Store*/
 
 #store {
@@ -233,6 +258,7 @@ li {
 		margin-bottom: 20px;
 	}
 }
+
 /* Displays Navbar on screens 600px and above */
 
 @media (max-width:600px) {
