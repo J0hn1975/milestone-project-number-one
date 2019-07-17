@@ -112,13 +112,9 @@ li {
 	height: 100%;
 }
 
-
-
 .column {
   float: left;
   width: 25%;
-  
-  
 }
 
 .row:after {
@@ -130,7 +126,7 @@ li {
 .box {
 	border-bottom: solid;
 	border-color: #fff;
-	border-bottom-width: 5px;
+	border-bottom-width: 10px;
 	padding: 2.5px;
 	margin: 2.5px;
 	letter-spacing: 1.5px;
@@ -251,6 +247,7 @@ li {
 		height: 90vh;
 	}
 }
+
 @media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
