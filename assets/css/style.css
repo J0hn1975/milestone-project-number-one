@@ -36,9 +36,7 @@ p {
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 }
-.pure-button {
-	color: red;
-}
+
 /*............................................Body*/
 
 * {
@@ -54,6 +52,7 @@ p {
 	background-color: #000080;
 	position: relative;
 	letter-spacing: 2px;
+	float: left;
 }
 .nav>.nav-header {
 	display: inline;
@@ -101,11 +100,36 @@ p {
 
 /*.............................................Band Images*/
 
-.border-box {
-	box-sizing: border-box;
-	padding: 0px;
-	margin: 0px;
+img {
+  border-radius: 5px;
+  border: solid;
 }
+
+
+ .text-right{
+	height: 650px;
+	left: 50%;
+	text-align: justify;
+	border: solid;
+	border-radius: 5px;
+	background-color: #5061c7;
+	
+	
+	
+}
+
+ .text-left{
+	height: 650px;
+	left: 50%;
+	text-align: justify;
+	border: solid;
+	border-radius: 5px;
+	background-color: #5061c7;
+}
+
+
+
+
 /* Style the counter cards */
 
 .card {
@@ -115,7 +139,31 @@ p {
 	text-align: center;
 	background-color: #D5E6E2;
 }
-/*.............................................Tours*/
+
+.TextWrapLeft {
+	clear: right;
+	float: left;
+	margin: 10px;
+	display: block;
+	color: white;
+}
+
+.TextWrapRight {
+	clear: right;
+	float: right;
+	margin: 10px;
+	
+}
+
+.a {
+	background-color: red;
+	width: 473px;
+	height:663px;
+	float:left;
+}
+
+
+/*.............................................Tours / Contact*/
 
 li {
 	list-style: none;
@@ -153,13 +201,44 @@ li {
 	background-color: #D5E6E2;
 }
 
-/*.............................................Contact*/
+/*.............................................Contact Form*/
+
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 2px solid #000080; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 16px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+  letter-spacing: 2px;
+  
+}
+
+select {
+	width: 100%;
+	border: 2px solid #000080;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 12px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #61B1FF;
+	background-color: #fff;
+	font-size: 15px;
+	letter-spacing: 2px;
+
+}
 
 
-	
-
-
-
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #61B1FF;
+  opacity: 1; /* Firefox */
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
 
 /*.............................................Media Queries*/
 
