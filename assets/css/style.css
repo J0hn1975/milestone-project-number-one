@@ -1,24 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url(' https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
-
 /*............................................Special Styles/Text*/
+
+.column {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+body {
+	background-color: #D5E6E2;
+}
 
 h1 {
 	background-color: red;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
-	font-size: 30px;
+	font-size: 26px;
+	margin-bottom: 5px;
+	font-weight: bold;
 }
+
 h2 {
 	text-align: center;
-	font-size: 25px;
+	font-size: 23px;
 	font-family: 'Roboto', sans-serif;
 	color: #FFF;
 	background-color: #5061C7;
+	margin-bottom: 2px;
 }
-h3{
+
+h3 {
 	font-family: 'Roboto', sans-serif;
 	color: #1E90FF;
 	text-align: center;
@@ -28,13 +42,55 @@ h4 {
 	font-family: 'Roboto', sans-serif;
 	color: #1E90FF;
 	text-align: center;
-	font-size: 23px;
+	font-size: 20px;
+	margin-bottom: 5px;
 }
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #1E90FF;
+}
+
+h6 {
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
 p {
 	color: #61B1FF;
-	font-size: 18px;
+	font-size: 15px;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 600;
+	
+	margin-bottom: 3px;
+}
+
+p.bio {
+	background-color: #000080;
+	border: solid;
+	border-radius: 10px;
+	margin-left: 5px;
+	text-align: center;
+	letter-spacing: 2px;
+	
+}
+
+p.album {
+	color: #61B1FF;
+	font-size: 20px;
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*............................................Audio Player*/
+
+#player {
+
+
 }
 
 /*............................................Body*/
@@ -42,8 +98,8 @@ p {
 * {
 	margin: 0;
 	padding: 0;
-	
 }
+
 /*............................................Heading*/
 
 .nav {
@@ -54,9 +110,16 @@ p {
 	letter-spacing: 2px;
 	float: left;
 }
+
+.nav>.nav-header>.nav-title>a {
+	text-decoration: none;
+	color: white;
+}
+
 .nav>.nav-header {
 	display: inline;
 }
+
 .nav>.nav-header>.nav-title {
 	display: inline-block;
 	font-size: 22px;
@@ -64,152 +127,115 @@ p {
 	color: #fff;
 	padding: 10px 10px 10px 10px;
 }
+
 .nav>.nav-btn {
 	display: none;
 }
+
 .nav>.nav-links {
 	display: inline;
 	float: right;
 	font-size: 18px;
 	font-family: 'Abril Fatface', cursive;
 }
+
 .nav>.nav-links>a {
 	display: inline-block;
 	padding: 13px 10px 13px 10px;
 	text-decoration: none;
 	color: #fff;
 }
+
 .nav>.nav-links>a:hover {
 	background-color: #0000FF;
 }
+
 .nav>#nav-check {
 	display: none;
 }
 
 .img-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-}
-
-
-
-
-
-/*.............................................Band Images*/
-
- .text-right{
-	height: 650px;
+	position: absolute;
+	top: 50%;
 	left: 50%;
-	text-align: justify;
-	border: solid;
-	border-radius: 5px;
-	background-color: #5061c7;
-
+	transform: translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
 }
 
- .text-left{
-	height: 650px;
-	left: 50%;
-	text-align: justify;
-	border: solid;
-	border-radius: 5px;
-	background-color: #5061c7;
-}
+/*.............................................Store*/
 
-
-
-
-/* Style the counter cards */
-
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	/* this adds the "card" effect */
-	padding: 16px;
-	text-align: center;
+#store-wrapper {
 	background-color: #D5E6E2;
 }
 
-.TextWrapLeft {
-	clear: right;
-	float: left;
-	margin: 10px;
-	display: block;
-	color: white;
+.album-artwork {
+	margin-top: 5px;
+	margin-bottom: 20px;
 }
-
-.TextWrapRight {
-	clear: right;
-	float: right;
-	margin: 10px;
-	
-}
-
-.a {
-	background-color: red;
-	width: 473px;
-	height:663px;
-	float:left;
-}
-
 
 /*.............................................Tours / Contact*/
 
 li {
 	list-style: none;
 }
+
 #wrapper {
 	background-color: #D5E6E2;
 	height: 100%;
 }
 
-.column {
-  float: left;
-  width: 25%;
-}
-
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .box {
 	border-bottom: solid;
-	border-color: #fff;
+	border-color: red;
 	border-bottom-width: 10px;
 	padding: 2.5px;
 	margin: 2.5px;
 	letter-spacing: 1.5px;
 }
 
-
-
-/*.............................................Store*/
-
-#store {
-	background-color: #D5E6E2;
-}
-
 /*.............................................Contact Form*/
 
+div.form {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+form {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 input[type=text], textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 2px solid #000080; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 16px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
-  letter-spacing: 2px;
-  
+	width: 50%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 2px solid #000080;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 16px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: none;
+	/* Allow the user to vertically resize the textarea (not horizontally) */
+	letter-spacing: 2px;
 }
 
 select {
-	width: 100%;
+	width: 50%;
 	border: 2px solid #000080;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -221,16 +247,32 @@ select {
 	background-color: #fff;
 	font-size: 15px;
 	letter-spacing: 2px;
-
 }
 
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #61B1FF;
-  opacity: 1; /* Firefox */
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 15px;
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #61B1FF;
+	opacity: 1;
+	/* Firefox */
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
 }
+
+/*.............................................Footer*/
+
+.footer {
+	height: 50px;
+	width: 100%;
+	background-color: #000080;
+	letter-spacing: 2px;
+	bottom: 0px;
+}
+
+.footer>p {
+	font-family: 'Fjalla One', sans-serif;
+	padding: 10px;
+}
+
 
 /*.............................................Media Queries*/
 
@@ -243,9 +285,10 @@ select {
 	}
 	.img-desktop {
 		width: 100%;
-		height: 94.8vh;
+		height: 603px;
 	}
 }
+
 @media (max-width: 600px) {
 	.mobile {
 		display: block;
@@ -257,9 +300,17 @@ select {
 		width: 100%;
 		height: 90vh;
 	}
-	
 	.img-title {
 		display: none;
+	}
+	.footer {
+		height: 50px;
+		width: 100%;
+		background-color: #000080;
+		position: relative;
+		letter-spacing: 2px;
+		float: left;
+		bottom: 0px;
 	}
 }
 
@@ -271,7 +322,7 @@ select {
 	}
 }
 
-/* Displays Navbar on screens 600px and above */
+/* Displays Navbar on screens up to 600px */
 
 @media (max-width:600px) {
 	.nav>.nav-btn {
@@ -306,6 +357,7 @@ select {
 		overflow-y: hidden;
 		top: 50px;
 		left: 0px;
+		z-index: 100;
 	}
 	.nav>.nav-links>a {
 		display: block;
@@ -318,6 +370,139 @@ select {
 		height: calc(100vh - 50px);
 		overflow-y: auto;
 	}
+	
+	#player {
+		z-index: 80;
+	}
+	
+}
+
+
+@media (min-width: 1024px) {
+	
+	p {
+	color: #61B1FF;
+	font-size: 20px;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 2px;
+	
+}
+
+h1 {
+	background-color: red;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 26px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+	
+	h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	background-color: #5061C7;
+	
+}
+
+	h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #1E90FF;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #1E90FF;
+	margin-bottom: 25px;
+	line-height: 50px;
+}
+
+	
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: block;
+	}
+	.img-desktop {
+		width: 100%;
+		height: 915px;
+	}
+	.column {
+		display: block;
+		margin-bottom: 50px;
+	}
+	
+	.album-artwork {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 400px;
+	width: 325px;
+}
+
+div.form {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+form {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+input[type=text], textarea {
+	width: 70%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 2px solid #000080;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 16px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: none;
+	/* Allow the user to vertically resize the textarea (not horizontally) */
+	letter-spacing: 2px;
+}
+
+select {
+	width: 70%;
+	border: 2px solid #000080;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 12px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #61B1FF;
+	background-color: #fff;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #61B1FF;
+	opacity: 1;
+	/* Firefox */
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+}
+
 }
 
 
