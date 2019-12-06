@@ -34,12 +34,10 @@ Technologies Used
 2. HTML
 3. Bootstrap 3.3.7
 
-
-
 Testing
-HTML for entire site validated  "Nu HTML Checker" - https://validator.w3.org/
-CSS for entire site validated https://jigsaw.w3.org/
-Both CSS and HTML ran thhrough cleaners to tidy up code.
+1. HTML for entire site validated  "Nu HTML Checker" - https://validator.w3.org/
+2. CSS for entire site validated https://jigsaw.w3.org/
+3. Both CSS and HTML ran thhrough cleaners to tidy up code.
 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -72,19 +70,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 Credits
 Content
 
-Band Bio's copied from www.allmusic.com
+1. Band Bio's copied from www.allmusic.com
 
 Media
 Music
-Songs purchased from iTunes
+1. Songs purchased from iTunes
 
 Images
-Main Image used on home page - copied from Pinterest
-All images on Band page - copied from Pinterest, 
-Opaque Small Faces Logo used on home page - copied from Fanart.TV
+1. Main Image used on home page - copied from Pinterest
+2. All images on Band page - copied from Pinterest, 
+3. Opaque Small Faces Logo used on home page - copied from Fanart.TV
 
 Album Artwork
-Itchycoo Park - copied from Amazon.co.uk
-Ogdens Nut Gone Flake - copied from BBC.co.uk
-Autumun Stone - copied from Amazon.com
-There are but four Small Faces - copied from Wikipedia
+1. Itchycoo Park - copied from Amazon.co.uk
+2. Ogdens Nut Gone Flake - copied from BBC.co.uk
+3. Autumun Stone - copied from Amazon.com
+4. There are but four Small Faces - copied from Wikipedia
