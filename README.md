@@ -1,7 +1,6 @@
 User Centric Milestone One Project
 
-This is a website based on one of my favourtie bands The Small Faces. 
-One or two paragraphs providing an overview of your project.
+1. This is a website based on one of my favourtie bands The Small Faces. 
 
 Essentially, this part is your sales pitch.
 
@@ -14,13 +13,13 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
-A standard nav bar is used to navigate around website which is visible on all devices above 600px. Also, clicking on 'The Small Faces' brings the user back to the homepage.
+1. A standard nav bar is used to navigate around website which is visible on all devices above 600px. Also, clicking on 'The Small Faces' brings the user back to the homepage.
 For all devices under 600px the nav bar collaspses in to a hamburber style drop down menu, the nav becomes visible when clicking on the hamburger icon.
-I have made the drop down nav menu opaque so that the pages remain visible under the menu.
-For mobile devices the main colour image on the homepage changes to a back and white one. So that the content can still be seen 
+I have made the drop down nav menu opaque so that the pages remain visible under the menu, so that the content can still be seen
+For mobile devices the main colour image on the homepage changes to a back and white one. 
 
 Colour Scheme.
-Mod or Mod culture adopted the colours of the RAF target insignia which is reflected throughout the site.
+1. Mods or Mod culture adopted the colours of the RAF target insignia which is reflected throughout the site.
 
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
