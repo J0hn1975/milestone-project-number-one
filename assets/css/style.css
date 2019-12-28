@@ -248,7 +248,7 @@ select {
 	margin-bottom: 16px;
 	padding: 12px;
 	font-family: 'Fjalla One', sans-serif;
-	color: #61B1FF;
+	color: #61b1ff;
 	background-color: #fff;
 	font-size: 15px;
 	letter-spacing: 2px;
@@ -256,12 +256,18 @@ select {
 
 ::placeholder {
 	/* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: #61B1FF;
+	color: #61b1ff;
 	opacity: 1;
 	/* Firefox */
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 15px;
+	/* Internet Explorer 10-11 */	
 }
+
+:-ms-input-placeholder {
+	color: #61b1ff;
+}
+ 
 
 /*.............................................Footer*/
 
