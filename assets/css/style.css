@@ -261,12 +261,53 @@ select {
 	/* Firefox */
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 15px;
-	/* Internet Explorer 10-11 */	
+		
 }
 
+/* Internet Explorer 10-11 */
 :-ms-input-placeholder {
 	color: #61b1ff;
+	letter-spacing: 2px;
+	
 }
+/* Internet Explorer 10-11 */
+:-ms-input[type=text], textarea {
+	width: 50%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 2px solid #61b1ff;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 16px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: none;
+	/* Allow the user to vertically resize the textarea (not horizontally) */
+	letter-spacing: 2px;
+}
+/* Internet Explorer 10-11 */
+:-ms-select {
+	width: 50%;
+	border: 2px solid #61b1ff;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 12px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #61b1ff;
+	background-color: #fff;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+	
+
  
 
 /*.............................................Footer*/
@@ -441,6 +482,8 @@ h5 {
 		bottom: 0px;
 		text-align: center;
 	}
+	
+	
 }
 
 
@@ -474,13 +517,15 @@ h5 {
 		position: absolute;
 		display: block;
 		width: 100%;
-		background-color: rgb(0, 0, 128, 0.5);
+		background-color: rgb(0, 0, 128);
+		opacity: 0.5;
 		height: 0px;
 		transition: all 0.3s ease-in;
 		overflow-y: hidden;
 		top: 50px;
 		left: 0px;
 		z-index: 100;
+	
 	}
 	.nav>.nav-links>a {
 		display: block;
