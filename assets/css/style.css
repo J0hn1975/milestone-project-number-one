@@ -86,12 +86,7 @@ p.album {
 	margin-bottom: 10px;
 }
 
-/*............................................Audio Player*/
 
-#player {
-
-
-}
 
 /*............................................Body*/
 
@@ -238,7 +233,6 @@ input[type=text], textarea {
 	letter-spacing: 2px;
 }
 
-
 select {
 	width: 50%;
 	border: 2px solid #61b1ff;
@@ -261,7 +255,6 @@ select {
 	/* Firefox */
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 15px;
-		
 }
 
 /* Internet Explorer 10-11 */
@@ -290,6 +283,7 @@ select {
 	/* Allow the user to vertically resize the textarea (not horizontally) */
 	letter-spacing: 2px;
 }
+
 /* Internet Explorer 10-11 */
 :-ms-select {
 	width: 50%;
@@ -622,7 +616,7 @@ h5 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 450px;
-	width: 330px;
+	width: 325px;
 }
 
 	
@@ -691,7 +685,30 @@ select {
 	position: absolute;
 }
 
+@media only screen and (max-width : 320px) {
+input[type=text], textarea {
+	width: 70%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 2px solid #000080;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 16px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: none;
+	/* Allow the user to vertically resize the textarea (not horizontally) */
+	letter-spacing: 2px;
+}	
+
 }
+	
+
 
 
 
