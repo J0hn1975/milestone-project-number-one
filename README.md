@@ -2,9 +2,11 @@ User Centric Milestone One Project
 
 1. This is a website based on one of my favourtie bands The Small Faces. 
 
-Essentially, this part is your sales pitch.
-
 UX
+1. This site is for current fans of the Small Faces as well as for new fans just getting in to their music for the first time.
+2. The Band page has biographies for each member of the band provdiding 
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -21,13 +23,6 @@ For mobile devices the main colour image on the homepage changes to a back and w
 Colour Scheme.
 1. Mods or Mod culture adopted the colours of the RAF target insignia which is reflected throughout the site.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 Technologies Used
 1. CSS
 2. HTML
@@ -36,8 +31,7 @@ Technologies Used
 Testing
 1. HTML for entire site validated  "Nu HTML Checker" - https://validator.w3.org/
 2. CSS for entire site validated https://jigsaw.w3.org/
-3. Both CSS and HTML ran thhrough cleaners to tidy up code.
-
+3. Both CSS and HTML ran through cleaners to tidy up code.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -57,21 +51,12 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section hould describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. This site has been deployed directly from the master branch onto GitHub pages.
 
 Credits
 Content
-
 1. Band Bio's copied from www.allmusic.com
 
-Media
 Music
 1. Songs purchased from iTunes
 
