@@ -4,7 +4,7 @@ User Centric Milestone One Project
 
 UX
 1. This site is for current fans of the Small Faces as well as for new fans just getting in to their music for the first time.
-2. The Band page has biographies for each member of the band provdiding 
+2. The Band page has biographies for each member of the band provdiding basic informaiton about each musician.
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
