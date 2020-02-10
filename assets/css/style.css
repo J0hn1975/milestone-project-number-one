@@ -1,5 +1,5 @@
 @import url(' https://fonts.googleapis.com/css?family=Abril+Fatface');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 /*............................................Special Styles/Text*/
 
@@ -7,10 +7,13 @@
 	float: left;
 	width: 25%;
 	text-align: center;
+	
+	
 }
 
 body {
 	background-color: #D5E6E2;
+	
 }
 
 h1 {
@@ -19,7 +22,7 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	font-size: 26px;
-	margin-bottom: 5px;
+	margin-bottom: 0;
 	font-weight: bold;
 }
 
@@ -29,6 +32,7 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF;
 	background-color: #5061C7;
+	margin-top: 2px;
 	margin-bottom: 2px;
 }
 
@@ -68,13 +72,14 @@ p {
 	margin-bottom: 3px;
 }
 
-p.bio {
-	background-color: #000080;
-	border: solid;
+.bio {
+	font-family: 'Roboto';
+	font-size: 17px;
+	
 	border-radius: 10px;
-	margin-left: 5px;
-	text-align: center;
-	letter-spacing: 2px;
+	
+	
+	display: inline-block;
 	
 }
 
@@ -104,6 +109,8 @@ p.album {
 	position: relative;
 	letter-spacing: 2px;
 	float: left;
+	margin:0px;
+	
 }
 
 .nav>.nav-header>.nav-title>a {
@@ -160,10 +167,6 @@ p.album {
 }
 
 /*.............................................Store*/
-
-#store-wrapper {
-	background-color: #D5E6E2;
-}
 
 .album-artwork {
 	margin-top: 5px;
@@ -300,9 +303,17 @@ select {
 	letter-spacing: 2px;
 }
 
-	
-
- 
+input[type=submit] {
+  background-color: #000080;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 /*.............................................Footer*/
 
@@ -342,12 +353,29 @@ select {
 	.column {
 		width: 25%;
 		display: block;
-		margin-top: 25px;
+		
+		
 	}
 	
-	p.bio {
-		margin-top: 25px;
-	}
+	.bio {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color:#61b1ff;
+	text-align: justify;
+	width: 290px;
+	margin-bottom: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+	
+}
+	
+
 	
 	p {
 	color: #61B1FF;
@@ -359,15 +387,7 @@ select {
 	
 }
 
-h1 {
-	
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #fff;
-	font-size: 26px;
-	margin-bottom: 5px;
-	font-weight: bold;
-}
+
 	
 	h2 {
 	text-align: center;
@@ -375,8 +395,9 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF;
 	background-color: #5061C7;
+	margin: 0px;
 	
-}
+	}
 
 	h4 {
 	font-family: 'Roboto', sans-serif;
@@ -395,16 +416,7 @@ h5 {
 }
 
 	
-	.mobile {
-		display: none;
-	}
-	.desktop {
-		display: block;
-	}
-	.img-desktop {
-		width: 100%;
-		height: 915px;
-	}
+	
 	.column {
 		display: block;
 		margin-bottom: 0px;
@@ -442,6 +454,7 @@ h5 {
 		width: 100%;
 		display: block;
 		margin-bottom: 20px;
+		
 	}
 	
 	.mobile {
@@ -477,6 +490,7 @@ h5 {
 		text-align: center;
 	}
 	
+
 	
 }
 
@@ -490,6 +504,7 @@ h5 {
 		position: absolute;
 		right: 0px;
 		top: 0px;
+		
 	}
 	.nav>.nav-btn>label {
 		display: inline-block;
@@ -569,7 +584,7 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF;
 	background-color: #5061C7;
-	
+	margin-top: 0;
 }
 
 	h4 {
@@ -588,7 +603,6 @@ h5 {
 	line-height: 50px;
 }
 
-	
 	.mobile {
 		display: none;
 	}
@@ -597,11 +611,12 @@ h5 {
 	}
 	.img-desktop {
 		width: 100%;
-		height: 915px;
+		height: 920px;
 	}
 	.column {
 		display: block;
 		margin-bottom: 0px;
+		
 	}
 	
 	.person {
@@ -617,6 +632,24 @@ h5 {
 	margin-bottom: 20px;
 	height: 450px;
 	width: 325px;
+}
+
+.bio {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color:#61b1ff;
+	text-align: justify;
+	width: 386px;
+	margin-bottom: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+	display: inline-block;
+	
 }
 
 	
